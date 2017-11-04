@@ -33,7 +33,7 @@ const Header = () => {
         <div className="container-fluid px-3">
           {/* Logo */}
           <NavLink className="navbar-brand fw-bold fs-5 text-warning d-flex align-items-center gap-2" to="/">
-           🎓
+            🎓
             HB School
           </NavLink>
 

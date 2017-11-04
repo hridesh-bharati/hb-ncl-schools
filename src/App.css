@@ -1,26 +1,30 @@
-/* Hide scrollbar but allow scroll */
 ::-webkit-scrollbar {
   display: none;
 }
 
 * {
-  -ms-overflow-style: none; /* IE & Edge */
-  scrollbar-width: none; /* Firefox */
+  -ms-overflow-style: none;
+  /* IE & Edge */
+  scrollbar-width: none;
 }
-*{
+
+* {
   margin: 0;
   padding: 0;
   font-family: "Rubik", sans-serif;
   overflow-x: hidden !important;
 }
-h1{
+
+h1 {
   font-size: 3rem !important;
   color: rgb(0, 0, 53) !important;
   font-weight: 900;
 }
+
 .hover-up {
   transition: all 0.3s ease;
 }
+
 .hover-up:hover {
   transform: translateY(-6px);
   box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15) !important;
